@@ -50,7 +50,7 @@ def train_test_split(data_raw: Path, data_folder_s: Path, train_size = 0.8):
         shutil.copy(src=str(img), dst=str(data_folder_s.joinpath('Test','Dog')))
         
     remove_exif_data(data_folder_s.joinpath('Train'))
-    remove_exif_data(data_folder_s.joinpath('Test'))
+	remove_exif_data(data_folder_s.joinpath('Test'))
 
 # helper function to remove corrupt exif data from Microsoft's dataset
 def remove_exif_data(paths: Path):
