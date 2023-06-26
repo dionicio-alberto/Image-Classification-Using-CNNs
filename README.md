@@ -1,12 +1,12 @@
-<h1 align="center"> GitPoint </h1> <br>
+<h1 align="center"> CNN's </h1> <br>
 <p align="center">
   <!--<a href="https://gitpoint.co/"> -->
-    <img alt="Init" title="Presentation" src="https://i.imgur.com/ofmVeDU.png" width="450">
+    <img alt="Init" title="Presentation" src="https://i.imgur.com/FlVfwAA.png" width="450">
   </a>
 </p>
 
 <p align="center">
-  Predicting Taxis Fares with Deep Feedforward Network
+  Image Classification Using CNNs: Cats vs Dogs
 </p>
 
 <!-- 
@@ -43,11 +43,8 @@
 
 ## Introduction
 
-We used a deep feedforward neural network to predict taxi fares in New York City (NYC), given inputs such as the pickup and drop off locations.
 
-Yellow cabs in NYC are a recognizable icon, relied upon by thousands of commuters in the bustling city. However, the rise of ride-hailing apps like Uber has added pressure to the traditional taxi industry.
-
-To meet the competition posed by ride-hailing apps, NYC's yellow cabs are striving to modernize their services and offer a user experience comparable to Uber. In August 2018, the Taxi and Limousine Commission of NYC introduced a new mobile app enabling commuters to book yellow cabs conveniently. The app also provides upfront fare pricing, requiring the development of a sophisticated algorithm. This algorithm must account for multiple factors like traffic conditions, time of day, and pickup/drop-off locations to generate precise fare predictions.
+Computer vision is an engineering discipline focused on developing software that can derive significance from visual data. As per a popular anecdote, computer vision's origins can be traced back to the 1960s when Professor Marvin Minsky of MIT tasked a team of undergraduate students with an intriguing summer project. The challenge presented to them was to affix a camera to a computer and enable the computer to articulate its observations of the surroundings.
 
 **All project is in the folder *Notebook*.**
 
@@ -72,7 +69,7 @@ Principal's model feactures:
 
 
 <p align="center">
-  <img src = "https://i.imgur.com/nlN8INQ.png" width=400>
+  <img src = "https://i.imgur.com/M5jDRmf.png" width=400>
 </p>
 
 > Model schematic
