@@ -43,13 +43,14 @@
 
 ## Introduction
 
-
 Computer vision is an engineering discipline focused on developing software that can derive significance from visual data. As per a popular anecdote, computer vision's origins can be traced back to the 1960s when Professor Marvin Minsky of MIT tasked a team of undergraduate students with an intriguing summer project. The challenge presented to them was to affix a camera to a computer and enable the computer to articulate its observations of the surroundings.
+
+In this repository we've created a Convolutional Neural Network to identify Cats or Dogs. Here, we created two models, the first model was created from 0, using Keras librery. In the second model, we created a pre-trained model using transfer learning from VGC16 model
 
 **All project is in the folder *Notebook*.**
 
 <p align="center">
-  <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/1200px-New_york_times_square-terabass.jpg", width="600">
+  <img src = "https://i.imgur.com/nPgxtAq.jpeg", width="600">
 </p>
 
 -----
@@ -58,14 +59,10 @@ Computer vision is an engineering discipline focused on developing software that
 
 Principal's model feactures:
 
-- 4 hidden layers
-- 232 nodes
-- 12913 parameters
-- 20 iterations
-- Model implementent witSh Keras usign the sequential model
-- Adam optimizer algorithm 
-- MSE metric
-- RMSE final ~ $ 3.50
+- 2 models trained
+- ~80 % and ~90% accuracity
+- Model 1: 2 convolutional-max pooling layers, followed by two fully connected layers.
+- Model 2: transfer learning to leverage on the pretrained VGG16 network for our classification
 
 
 <p align="center">
@@ -110,6 +107,12 @@ Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a det
 
 -----
 
+## Results Analysis
+
+The models make strongly right predictions
+
+![results](https://i.imgur.com/ZGFRdIc.png)
+
 <!--  ## Backers [![Backers on Open Collective](https://opencollective.com/git-point/backers/badge.svg)](#backers)
 
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/git-point#backer)]
@@ -119,7 +122,7 @@ Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com
 
 ## Sponsors <!-- [![Sponsors on Open Collective](https://opencollective.com/git-point/sponsors/badge.svg)](#sponsors) -->
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/git-point#sponsor)]
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://www.linkedin.com/in/dionicio-perez-landero-446605170/)]
 
 <a href="https://www.linkedin.com/in/dionicio-perez-landero-446605170/" target="_blank"><img src="https://opencollective.com/git-point/sponsor/0/avatar.svg"></a>
 <a href="https://www.linkedin.com/in/dionicio-perez-landero-446605170/" target="_blank"><img src="https://opencollective.com/git-point/sponsor/1/avatar.svg"></a>
